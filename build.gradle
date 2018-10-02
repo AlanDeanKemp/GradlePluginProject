@@ -32,20 +32,20 @@ dependencies {
 // * * * * * * * * * * * *
 
 project.description     = 'Demo plugin to use as a starting point for custom plugin development'
-project.group           = 'com.praqma'
+project.group           = 'com.trustonic.gradleplugindemo'
 project.version         = '1.1.0'
 
 project.ext.name        = 'demo'
-project.ext.pluginId    = 'com.praqma.demo.DemoPlugin'
-project.ext.scm         = 'scm:git@github.com:Praqma/gradle-plugin-bootstrap.git'
-project.ext.url         = 'https://github.com/Praqma/gradle-plugin-bootstrap'
+project.ext.pluginId    = 'DemoPlugin'
+project.ext.scm         = 'scm:git@github.com:alandeankemp/gradle-plugin-bootstrap.git'
+project.ext.url         = 'https://github.com/alandeankemp/gradle-plugin-bootstrap'
 
 // Configuration for: java-gradle-plugin
 gradlePlugin {
     plugins {
         demoPlugin {
             id = project.pluginId
-            implementationClass = 'com.praqma.demo.DemoPlugin'
+            implementationClass = 'DemoPlugin'
         }
     }
 }

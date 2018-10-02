@@ -1,4 +1,4 @@
-package com.praqma.demo.greeting
+package com.trustonic.gradleplugindemo.greeting
 
 import org.gradle.api.DefaultTask
 import org.gradle.api.GradleException

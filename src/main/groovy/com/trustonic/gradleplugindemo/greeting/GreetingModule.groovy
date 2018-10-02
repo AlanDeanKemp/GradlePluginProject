@@ -1,11 +1,11 @@
-package com.praqma.demo.greeting
+package com.trustonic.gradleplugindemo.greeting
 
 import org.gradle.api.Project
 
 /**
  * The "module" isn't anything Gradle specific.
  * It's just a way of grouping tasks and configuration that share a certain theme.
- * The module's "load" method is called in the plugin's entry point at {@link com.praqma.demo.DemoPlugin}
+ * The module's "load" method is called in the plugin's entry point at {@link com.trustonic.gradleplugindemo.DemoPlugin}
  */
 class GreetingModule {
     static void load(Project project) {

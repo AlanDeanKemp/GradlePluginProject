@@ -1,4 +1,4 @@
-package com.praqma.demo.greeting
+package com.trustonic.gradleplugindemo.greeting
 
 import org.gradle.testkit.runner.BuildResult
 import org.gradle.testkit.runner.GradleRunner
@@ -22,7 +22,7 @@ class GreetingModuleTest {
     public void setup() {
         // Prepare build.gradle
         build_gradle = testProjectDir.newFile('build.gradle')
-        build_gradle << 'plugins { id "com.praqma.demo.DemoPlugin" }\n'
+        build_gradle << 'plugins { id "DemoPlugin" }\n'
     }
 
     /**

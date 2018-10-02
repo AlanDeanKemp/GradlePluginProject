@@ -1,4 +1,4 @@
-package com.praqma.demo.greeting
+package com.trustonic.gradleplugindemo.greeting
 
 /**
  * An extension object for the Greeting module

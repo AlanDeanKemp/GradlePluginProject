@@ -1,6 +1,6 @@
-package com.praqma.demo
+package com.trustonic.gradleplugindemo
 
-import com.praqma.demo.greeting.GreetingModule
+import com.trustonic.gradleplugindemo.greeting.GreetingModule
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 
